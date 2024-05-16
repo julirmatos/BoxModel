@@ -1,30 +1,36 @@
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  background: #80347c;
 }
-
-.box {
+div {
   width: 400px;
   height: 400px;
-  background-color: #ffffff;
-  border: 2px solid #000000;
-  padding: 20px;
-  box-sizing: border-box;
-}
 
-.content {
-  height: 100%;
-}
+  border-width: 20px;
+  border-style: groove;
+  border-color: rgb(128, 50, 128);
+  border-radius: 25%;
 
-h1 {
-  margin-top: 0;
+  background-image: url(tipos-de-flores-amor-perfeito.png);
+
+  text-align: center;
+
+  box-shadow: inset 8px 6px 6px 6px rgb(161, 109, 109);
+  background-size: cover;
+
+  padding: 10px;
+
+  outline-width: 36px;
+  outline-style: double;
+  outline-color: rgb(165, 157, 157);
+
+  margin: auto;
+  margin-top: 100px;
 }
 
 p {
-  margin-bottom: 0;
+  padding-top: 160px;
+  font-style: italic;
+  font-size: 50px;
+  color: rgb(252, 252, 43);
+  font-weight: bold;
 }
